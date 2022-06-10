@@ -1,6 +1,6 @@
 import pandas as pd
 
-df = pd.read_csv("animal_villager.csv")
+df = pd.read_csv("data/animal_villager.csv")
 
 #'住民名'列をindexに変更
 df.set_index("住民名", inplace=True)
